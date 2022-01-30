@@ -1,0 +1,60 @@
+
+body {
+    background-color: rgb(148, 115, 103);
+}
+h1{
+    color: rgb(235, 179, 209);
+}
+div{
+    background-color: hotpink; border-style: solid; border-color:rgb(255, 255, 255); border: border-radius 5px;
+}
+p{
+    text-shadow: rgb(255, 0, 179) 1px 1px;
+}
+.shadow-text{
+    text-shadow: lightblue;
+}
+#large-paragraph{
+    font-size: 30px;
+}
+#example {
+    color: gray;
+    background-color: pink;
+    border-style:dotted;
+    border-width: 3px;
+    border-color: red;
+    border-radius: 5px;
+    height: 200px;
+    text-align: center;
+}
+
+img{
+    float: middle;
+}
+ 
+.hov{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+
+}
+.hov:hover {
+    background-color: plum;
+}
+
+.every-even li:nth-child(even) {
+    background-color: powderblue;
+}
+.every-third li:nth-child(3n){
+    background-color:palevioletred;
+}
+
+
+#box-model{
+    padding: 10px;
+    border-style: solid ;
+    border-width: 10px;
+    margin: 10px;
+    background-color: turquoise;
+}
+
